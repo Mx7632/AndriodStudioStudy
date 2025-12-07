@@ -16,13 +16,13 @@ class MainActivity : Activity() {
         setContentView(R.layout.activity_main)
 
         val tvMain = findViewById<TextView>(R.id.tv_main)
-        tvMain.setOnClickListener {
+        tvMain.setOnClickListener {  }{
             startActivity(Intent(this, Activity2::class.java))
         }
-        
+
+
     }
 }
-
 
 
 @Composable
